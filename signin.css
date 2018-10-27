@@ -1,0 +1,65 @@
+body {
+	background-color: #242424;
+}
+
+.LoginBox {
+	width: 400px;
+	background-color: #383838;
+	padding: 15px;
+	margin: auto;
+}
+
+.LoginBox input[type=text] {
+	display: block;
+	width: 150px;
+	margin-bottom: 10px;
+	padding: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #242424;
+	color: powderblue;
+	border:0;
+}
+
+.LoginBox input[type=password] {
+	display: block;
+	width: 150px;
+	padding: 5px;
+	margin: auto;
+	background-color: #242424;
+	color: powderblue;
+	border:0;
+}
+
+.LoginBox input[type=submit] {
+	background-color: #383838;
+	padding: 5px 0 5px 0;
+	width: 80px;
+	border: 0;
+	color: white;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.LoginBox input[type=submit]:hover {
+	background-color: powderblue;
+	color: black;
+}
+
+.LoginBox input[type=password]:focus {
+	outline: none;
+}
+
+.LoginBox input[type=text]:focus {
+	outline: green;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
